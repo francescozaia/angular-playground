@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body ng-app="Pricing" ng-controller="currencyController">
+<input type="text" ng-model="nameFilter" placeholder="Search..."/>
+<span app-version></span>
+<table>
+    <thead>
+    <tr><th colspan="4">Drivers Championship Standings</th></tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="driver in packages | filter: nameFilter">
+        <td>{{$index + 1}}</td>
+        <td>
+            {{driver.Driver.nationality}}&nbsp; - &nbsp;
+            {{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
+        </td>
+        <td>{{driver.Constructors[0].name}}</td>
+        <td>{{driver.points}}</td>
+    </tr>
+    </tbody>
+</table>
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="pricing/pricing.js"></script>
+<script src="pricing/pricing-services.js"></script>
+<script src="pricing/pricing-controllers.js"></script>
+<script src="pricing/pricing-filters.js"></script>
+<script src="pricing/pricing-directives.js"></script>
+</body>
+</html>
