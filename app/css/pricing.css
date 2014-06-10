@@ -1,11 +1,11 @@
 .main-pricing-boxes {
     width: 90%;
-    margin:0 auto;
+    margin:20px auto;
 }
 .main-top,
 .main-description,
 .main-bottom {
-    width: 98%;
+    margin: 0 5px;
 }
 .main-top {
     height: 36px;
@@ -30,27 +30,35 @@
     padding: 0 10px;
     color: #FFF;
 }
+.main-description .row a {
+    color: #FFF;
+    text-decoration: none;
+}
 .main-description .row.package-name {
     height: auto;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
-.main-description .row:nth-child(even) {
+.main-description .row:nth-child(odd) {
     background: rgba(255, 255, 255, .5);
 }
 .main-description .row.faded {
     background: rgba(255, 255, 255, .9);
     color:#797e89;
 }
-.main-description .row.faded:nth-child(even) {
+.main-description .row.faded:nth-child(odd) {
     background: rgba(255, 255, 255, .7);
 }
 .main-description .row.grayscale {
-    background: #eaeaea;
+
+    background: #f2f2f2;
     color:#797e89;
 }
-.main-description .row.grayscale:nth-child(even) {
-    background: #f2f2f2;
+.main-description .row.grayscale:nth-child(odd) {
+    background: #eaeaea;
 }
 .big-price {
-    font-size: 3em;
+    font-size: 2.4em;
+}
+.small-price {
+    font-size: .7em;
 }

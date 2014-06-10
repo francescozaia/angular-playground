@@ -7,29 +7,30 @@
 <div class="row main-description" style="background-color:{{ package.colour }};">
     <div class="col-md-12" >
         <div class="row package-name">
-            <div class="col-xs-12">
+            <div class="col-md-12">
                 <h3>{{ package.name }}</h3>
                 <p>
-                    <span class="big-price">{{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | solidFraction}}</span>.{{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | decimalFraction}}{{ annualModel }}
-                    (was {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].oldPrice * currencies[currencyModel].exchangeRate  | solidFraction}})<br/>
-                    Total {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].total * currencies[currencyModel].exchangeRate | solidFraction}} per year
+                    <span class="big-price">{{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | solidFraction }}</span>.{{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | decimalFraction}}&nbsp;{{ annualModel }}
+                    <span class="small-price">
+                        (was {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].oldPrice * currencies[currencyModel].exchangeRate | solidFraction }})
+                    </span>
+                    <br/>
+                    Total {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].total * currencies[currencyModel].exchangeRate | solidFraction }} per year
                 </p>
             </div>
         </div>
         <div class="row">
-            Discount: {{ packageprices.annual.discount }}%
+            Discount: {{ 100 - package.prices[annualModel].newPrice / package.prices[annualModel].oldPrice * 100 | solidFraction }}%
         </div>
         <div class="row">
-            {{package.storage}} storage
+
+            <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.storage}}">{{package.storage}} storage</a>
         </div>
         <div class="row">
-            <a href="#" tooltip-placement="right" tooltip-html-unsafe="I've been made<br/><b>bold</b>!">{{package.bandwidth}} bandwidth</a>
+            <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.bandwidth}}">{{package.bandwidth}} bandwidth</a>
         </div>
         <div class="row">
-            TEST websites
-        </div>
-        <div class="row">
-            Mobile optimised
+            <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.mobile}}">Mobile optimised</a>
         </div>
         <div class="row">
             Shop

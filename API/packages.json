@@ -1,30 +1,30 @@
 {
-    "currencies": {
-        "GBP": {
-            "symbol":"£",
-            "exchangeRate": 1
+    "currencies" : {
+        "GBP" : {
+            "symbol"        :"£",
+            "exchangeRate"  : 1
         },
-        "USD": {
-            "symbol":"$",
-            "exchangeRate": 1.68
+        "USD" : {
+            "symbol"        :"$",
+            "exchangeRate"  : 1.68
         },
-        "AUD": {
-            "symbol":"$",
-            "exchangeRate": 1.79
+        "AUD" : {
+            "symbol"        :"$",
+            "exchangeRate"  : 1.79
         }
     },
-    "packages": [
+    "packages" : [
         {
-            "name": "Standard",
-            "colour": "#32baec",
-            "prices": {
-                "annual": {
+            "name"      : "Standard",
+            "colour"    : "#32baec",
+            "prices"    : {
+                "annual"    : {
                     "oldPrice"  : 9,
                     "newPrice"  : 6.67,
                     "discount"  : "20%",
                     "total"     : 79.99
                 },
-                "monthly": {
+                "monthly"   : {
                     "oldPrice"  : 12,
                     "newPrice"  : 8.99,
                     "discount"  : "20%",
@@ -32,50 +32,50 @@
                 }
 
             },
-            "storage": "1000Mb",
-            "bandwidth": "20Gb"
+            "storage"   : "1000Mb",
+            "bandwidth" : "20Gb"
         },
         {
-            "name": "Plus",
-            "colour": "#4058a4",
-            "prices": {
-                "annual": {
-                    "oldPrice": 20,
-                    "newPrice": 8.99,
-                    "discount": "20%",
-                    "total"     : 108
+            "name"      : "Plus",
+            "colour"    : "#4058a4",
+            "prices"    : {
+                "annual"    : {
+                    "oldPrice"  : 15,
+                    "newPrice"  : 10,
+                    "discount"  : "20%",
+                    "total"     : 119.99
                 },
-                "monthly": {
-                    "oldPrice": 20,
-                    "newPrice": 8.99,
-                    "discount": "20%",
-                    "total"     : 108
+                "monthly"   : {
+                    "oldPrice"  : 20,
+                    "newPrice"  : 13.99,
+                    "discount"  : "20%",
+                    "total"     : 156
                 }
 
             },
-            "storage": "5000Mb",
-            "bandwidth": "Unlimited"
+            "storage"   : "5000Mb",
+            "bandwidth" : "Unlimited"
         },
         {
-            "name": "Max",
-            "colour": "#3a3f56",
-            "prices": {
-                "annual": {
-                    "oldPrice": 20,
-                    "newPrice": 8.99,
-                    "discount": "20%",
-                    "total"     : 108
+            "name"      : "Max",
+            "colour"    : "#3a3f56",
+            "prices"    : {
+                "annual"    : {
+                    "oldPrice"  : 26.25,
+                    "newPrice"  : 18.33,
+                    "discount"  : "20%",
+                    "total"     : 219.99
                 },
-                "monthly": {
-                    "oldPrice": 20,
-                    "newPrice": 8.99,
-                    "discount": "20%",
-                    "total"     : 108
+                "monthly"   : {
+                    "oldPrice"  : 35,
+                    "newPrice"  : 23.99,
+                    "discount"  : "20%",
+                    "total"     : 288
                 }
 
             },
-            "storage": "5000Mb",
-            "bandwidth": "Unlimited"
+            "storage"   : "5000Mb",
+            "bandwidth" : "Unlimited"
         }
     ]
 }
