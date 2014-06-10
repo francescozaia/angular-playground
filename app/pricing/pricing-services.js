@@ -2,16 +2,16 @@
 
 angular.module('Pricing.services', []).
     value('version', '0.1').
-    factory('ergastAPIservice', function($http) {
+    factory('pricingAPIService', function($http) {
 
-        var ergastAPI = {};
+        var pricingAPI = {};
 
-        ergastAPI.getDrivers = function() {
+        pricingAPI.getPackages = function() {
             return $http({
-                method: 'JSONP',
-                url: 'http://ergast.com/api/f1/2014/driverStandings.json?callback=JSON_CALLBACK'
+                method: 'GET',
+                url: '/packages'
             });
         }
 
-        return ergastAPI;
+        return pricingAPI;
     });

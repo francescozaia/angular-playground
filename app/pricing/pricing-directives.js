@@ -8,4 +8,10 @@ angular.module('Pricing.directives', []).
         return function(scope, elm, attrs) {
             elm.text(version);
         };
-    }]);
+    }]).
+    directive('article', function () {
+        return {
+            restrict: 'A',
+            templateUrl: '/app/templates/package-tmpl.html'
+        }
+    })

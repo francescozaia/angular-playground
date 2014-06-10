@@ -1,31 +1,28 @@
 'use strict';
 
 angular.module('Pricing.controllers', []).
-    controller('currencyController', function($scope) {
-        $scope.nameFilter = null;
-        $scope.packages = [
-            {
-                Driver: {
-                    givenName: 'Sebastian',
-                    familyName: 'Vettel'
-                },
-                points: 322,
-                nationality: "German",
-                Constructors: [
-                    {name: "Red Bull"}
-                ]
-            },
-            {
-                Driver: {
-                    givenName: 'Fernando',
-                    familyName: 'Alonso'
-                },
-                points: 207,
-                nationality: "Spanish",
-                Constructors: [
-                    {name: "Ferrari"}
-                ]
-            }
+    controller('alertsController', function($scope) {
+        $scope.alerts = [
+            { type: 'danger', msg: 'Oh snap! Change a few things up and try submitting again.' },
+            { type: 'success', msg: 'Well done! You successfully read this important alert message.' }
         ];
-    });
 
+        $scope.addAlert = function() {
+            $scope.alerts.push({msg: 'Another alert!'});
+        };
+
+        $scope.closeAlert = function(index) {
+            $scope.alerts.splice(index, 1);
+        };
+    }).
+    controller('packagesController', function($scope, pricingAPIService) {
+        $scope.nameFilter = null;
+        $scope.packages = [];
+        pricingAPIService.getPackages().success(function (response) {
+
+            /*response.$promise.then(function(data){
+                console.log(data);
+            });*/
+            $scope.packages = response.packages;
+        });
+    });
