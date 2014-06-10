@@ -12,6 +12,7 @@ angular.module('Pricing.directives', []).
     directive('article', function () {
         return {
             restrict: 'A',
+            transclude: true,
             templateUrl: '/app/templates/package-tmpl.html'
         }
     })

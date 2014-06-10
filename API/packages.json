@@ -1,24 +1,81 @@
-{"Packages":[
-    {
-        Driver: {
-            givenName: 'Sebastian',
-            familyName: 'Vettel'
+{
+    "currencies": {
+        "GBP": {
+            "symbol":"£",
+            "exchangeRate": 1
         },
-        points: 322,
-        nationality: "German",
-        Constructors: [
-            {name: "Red Bull"}
-        ]
+        "USD": {
+            "symbol":"$",
+            "exchangeRate": 1.68
+        },
+        "AUD": {
+            "symbol":"$",
+            "exchangeRate": 1.79
+        }
     },
-    {
-        Driver: {
-            givenName: 'Fernando',
-            familyName: 'Alonso'
+    "packages": [
+        {
+            "name": "Standard",
+            "colour": "#32baec",
+            "prices": {
+                "annual": {
+                    "oldPrice"  : 9,
+                    "newPrice"  : 6.67,
+                    "discount"  : "20%",
+                    "total"     : 79.99
+                },
+                "monthly": {
+                    "oldPrice"  : 12,
+                    "newPrice"  : 8.99,
+                    "discount"  : "20%",
+                    "total"     : 108
+                }
+
+            },
+            "storage": "1000Mb",
+            "bandwidth": "20Gb"
         },
-        points: 207,
-        nationality: "Spanish",
-        Constructors: [
-            {name: "Ferrari"}
-        ]
-    }
-]};
+        {
+            "name": "Plus",
+            "colour": "#4058a4",
+            "prices": {
+                "annual": {
+                    "oldPrice": 20,
+                    "newPrice": 8.99,
+                    "discount": "20%",
+                    "total"     : 108
+                },
+                "monthly": {
+                    "oldPrice": 20,
+                    "newPrice": 8.99,
+                    "discount": "20%",
+                    "total"     : 108
+                }
+
+            },
+            "storage": "5000Mb",
+            "bandwidth": "Unlimited"
+        },
+        {
+            "name": "Max",
+            "colour": "#3a3f56",
+            "prices": {
+                "annual": {
+                    "oldPrice": 20,
+                    "newPrice": 8.99,
+                    "discount": "20%",
+                    "total"     : 108
+                },
+                "monthly": {
+                    "oldPrice": 20,
+                    "newPrice": 8.99,
+                    "discount": "20%",
+                    "total"     : 108
+                }
+
+            },
+            "storage": "5000Mb",
+            "bandwidth": "Unlimited"
+        }
+    ]
+}
