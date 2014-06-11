@@ -76,16 +76,9 @@
             </div>
             -->
             <div class="row">
-                <div class="col-xs-12">
-                    <div style="height: 48px; line-height: 50px; background-color: #c9cc38; border-radius: 24px; color: white; padding: 0 20px;">
-                        <h4 style="display: inline;line-height: 48px;">Spring/Summer Sale - 20% off all plans</h4>
-                        <p style="display: inline;"><span class="pull-right">Valid until May 31 2014 11:59PM (GMT)</span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-xs-8">
-                    <h1>Pricing Page</h1>
+                    <span app-version></span>
+                    <input type="text" ng-model="nameFilter" placeholder="Search..."/>
                 </div>
                 <div class="col-xs-4">
                     <pre>{{annualModel || 'null'}}, {{currencyModel || 'null'}}</pre>
@@ -103,10 +96,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <span app-version></span>
-                <input type="text" ng-model="nameFilter" placeholder="Search..."/>
             </div>
             <div class="main-pricing-boxes row">
                 <div article class="col-md-4 font-regular" ng-repeat="package in packages | filter: nameFilter"></div>

@@ -1,68 +1,70 @@
 <!-- Pricing column -->
-<div class="row main-top">
-    <div class="col-md-12">
-        Buy now
+<div class="{{ package.name }}">
+    <div class="row main-top">
+        <div class="col-md-12">
+            Buy now
+        </div>
     </div>
-</div>
-<div class="row main-description" style="background-color:{{ package.colour }};">
-    <div class="col-md-12" >
-        <div class="row package-name">
-            <div class="col-md-12">
-                <h3>{{ package.name }}</h3>
-                <p>
-                    <span class="big-price">{{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | solidFraction }}</span>.{{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | decimalFraction}}&nbsp;{{ annualModel }}
-                    <span class="small-price">
-                        (was {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].oldPrice * currencies[currencyModel].exchangeRate | solidFraction }})
-                    </span>
-                    <br/>
-                    Total {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].total * currencies[currencyModel].exchangeRate | solidFraction }} per year
-                </p>
+    <div class="row main-description" style="background-color:{{ package.colour }};">
+        <div class="col-md-12" >
+            <div class="row package-name">
+                <div class="col-md-12">
+                    <h3>{{ package.name }}</h3>
+                    <p>
+                        <span class="big-price">{{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | solidFraction }}</span>.{{ package.prices[annualModel].newPrice * currencies[currencyModel].exchangeRate | decimalFraction}}&nbsp;{{ annualModel }}
+                        <span class="small-price">
+                            (was {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].oldPrice * currencies[currencyModel].exchangeRate | solidFraction }})
+                        </span>
+                        <br/>
+                        Total {{ currencies[currencyModel].symbol }} {{ package.prices[annualModel].total * currencies[currencyModel].exchangeRate | solidFraction }} per year
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                Discount: {{ 100 - package.prices[annualModel].newPrice / package.prices[annualModel].oldPrice * 100 | solidFraction }}%
+            </div>
+            <div class="row">
+
+                <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.storage}}">{{package.storage}} storage</a>
+            </div>
+            <div class="row">
+                <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.bandwidth}}">{{package.bandwidth}} bandwidth</a>
+            </div>
+            <div class="row">
+                <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.mobile}}">Mobile optimised</a>
+            </div>
+            <div class="row">
+                Shop
+            </div>
+            <div class="row faded">
+                Lorem ipsum
+            </div>
+            <div class="row faded">
+                Lorem ipsum
+            </div>
+            <div class="row faded">
+                Lorem ipsum
+            </div>
+            <div class="row faded">
+                Lorem ipsum
+            </div>
+            <div class="row grayscale">
+                Lorem ipsum
+            </div>
+            <div class="row grayscale">
+                Lorem ipsum
+            </div>
+            <div class="row grayscale">
+                Lorem ipsum
+            </div>
+            <div class="row grayscale">
+                Lorem ipsum
             </div>
         </div>
-        <div class="row">
-            Discount: {{ 100 - package.prices[annualModel].newPrice / package.prices[annualModel].oldPrice * 100 | solidFraction }}%
-        </div>
-        <div class="row">
-
-            <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.storage}}">{{package.storage}} storage</a>
-        </div>
-        <div class="row">
-            <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.bandwidth}}">{{package.bandwidth}} bandwidth</a>
-        </div>
-        <div class="row">
-            <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.mobile}}">Mobile optimised</a>
-        </div>
-        <div class="row">
-            Shop
-        </div>
-        <div class="row faded">
-            Lorem ipsum
-        </div>
-        <div class="row faded">
-            Lorem ipsum
-        </div>
-        <div class="row faded">
-            Lorem ipsum
-        </div>
-        <div class="row faded">
-            Lorem ipsum
-        </div>
-        <div class="row grayscale">
-            Lorem ipsum
-        </div>
-        <div class="row grayscale">
-            Lorem ipsum
-        </div>
-        <div class="row grayscale">
-            Lorem ipsum
-        </div>
-        <div class="row grayscale">
-            Lorem ipsum
-        </div>
     </div>
-</div>
-<div class="row main-bottom">
-    <div class="col-md-12">
-        Buy now
+    <div class="row main-bottom">
+        <div class="col-md-12">
+            Buy now
+        </div>
     </div>
 </div>
