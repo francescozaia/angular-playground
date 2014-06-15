@@ -23,15 +23,10 @@
             <div class="row">
                 Discount: {{ 100 - package.prices[annualModel].newPrice / package.prices[annualModel].oldPrice * 100 | solidFraction }}%
             </div>
-            <div class="row">
-
-                <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.storage}}">{{package.storage}} storage</a>
-            </div>
-            <div class="row">
-                <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.bandwidth}}">{{package.bandwidth}} bandwidth</a>
-            </div>
-            <div class="row">
-                <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{tooltips.mobile}}">Mobile optimised</a>
+            <div ng-repeat="feature in package.features">
+                <div class="row" ng-class-odd="'odd'" ng-class-even="'even'">
+                    <a href="#" tooltip-placement="right" tooltip-html-unsafe="{{feature.description}}">{{feature.value}} {{feature.name}}</a>
+                </div>
             </div>
             <div class="row">
                 Shop

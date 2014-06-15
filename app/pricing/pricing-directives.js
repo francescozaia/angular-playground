@@ -2,10 +2,9 @@
 
 /* Directives */
 
-
 angular.module('Pricing.directives', []).
     directive('appVersion', ['version', function(version) {
-        return function(scope, elm, attrs) {
+        return function(scope, elm) {
             elm.text(version);
         };
     }]).
@@ -15,4 +14,4 @@ angular.module('Pricing.directives', []).
             transclude: true,
             templateUrl: '/app/templates/package-tmpl.html'
         }
-    })
+    });
