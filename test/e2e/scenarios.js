@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 var fs = require('fs');
 
 // abstract writing screen shot to a file
@@ -9,6 +10,7 @@ function writeScreenShot(data, filename) {
     stream.write(new Buffer(data, 'base64'));
     stream.end();
 }
+*/
 
 /* https://github.com/angular/protractor/blob/master/docs/getting-started.md */
 
@@ -50,6 +52,7 @@ describe('my app', function() {
 
     });
 
+    /*
     describe('Pricing page', function() {
 
         beforeEach(function() {
@@ -64,4 +67,5 @@ describe('my app', function() {
         });
 
     });
+    */
 });
