@@ -15,8 +15,6 @@
     },
     "packages" : [
 
-        /* Package "Standard" */
-
         {
             "name"      : "Standard",
             "colour"    : "#32baec",
@@ -54,8 +52,6 @@
             ]
         },
 
-        /* Package "Plus" */
-
         {
             "name"      : "Plus",
             "colour"    : "#4058a4",
@@ -92,8 +88,6 @@
                 }
             ]
         },
-
-        /* Package "Max" */
 
         {
             "name"      : "Max",
