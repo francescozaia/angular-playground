@@ -31,13 +31,9 @@ angular.module('Pricing', [
         $httpBackend.whenGET(/API/).passThrough();
     })
     .controller('CollapseController', ['$scope', function($scope) {
-        "use strict";
         $scope.isCollapsed = false;
     }])
     .controller('ModalController', ['$scope', '$modal', '$log', function($scope, $modal, $log) {
-
-        "use strict";
-
         $scope.open = function () {
 
             $modal.open({
@@ -57,17 +53,9 @@ angular.module('Pricing', [
     }]);
 
 
-
-
-
-
 var loginModuleInstance = angular.module('loginModule', []);
 
 loginModuleInstance.factory('UserService', ['$http', '$log', function($http, $log) {
-
-
-    "use strict";
-
 
     var getSessionDetails = function () {
         return $http({
@@ -98,27 +86,23 @@ loginModuleInstance.factory('UserService', ['$http', '$log', function($http, $lo
 
 loginModuleInstance.value('user', {
     presentation: function (name) {
-        "use strict";
         return "Hi " + name + this.username;
     }
 });
 
 loginModuleInstance.controller('LoginController', ['$scope', '$http', 'user', function($scope, $http, user) {
-
-    "use strict";
-
     $scope.login = function () {
 
         getLogin().then(function(promise) {
             if (promise.data.valid === 0){
-                alert("Mh... :/");
+                //alert("Mh... :/");
                 user.isLogged = false;
                 user.username = '';
             } else {
-                alert("Logged in.");
+                //alert("Logged in.");
                 user.isLogged = true;
                 user.username = $scope.response;
-                location.href = "/dashboard";
+                //location.href = "/dashboard";
             }
         });
 
@@ -140,9 +124,6 @@ loginModuleInstance.controller('LoginController', ['$scope', '$http', 'user', fu
 }]);
 /*
 loginModuleInstance.run(function($http, $log, user) {
-
-    "use strict";
-
      $http({method: 'GET', url: '/sessiondetails.json'})
      .success(function(data, status, headers, config) {
      // this callback will be called asynchronously
@@ -174,9 +155,6 @@ loginModuleInstance.run(function($http, $log, user) {
 var authModuleInstance = angular.module('authModule', ['ngCookies', 'loginModule']);
 
 authModuleInstance.factory('authModule', ['$http', '$rootScope', '$cookieStore', function ($http, $rootScope, $cookieStore) {
-
-    "use strict";
-
     $rootScope.user = {};
 
     return {
@@ -197,9 +175,6 @@ authModuleInstance.factory('authModule', ['$http', '$rootScope', '$cookieStore',
 }]);
 
 authModuleInstance.run(function(authModule, UserService) {
-
-    "use strict";
-
     UserService.getData().then(function(promise) {
         if(promise.data.userdetails && promise.data.userdetails.valid === 1) {
             //$log.info( new Date() + ': user "' + promise.data.userdetails.name + '" is logged in');
