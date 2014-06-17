@@ -20,11 +20,13 @@ angular.module('Pricing', [
         );
 
         // adds a new package to the phones array
+        /*
         $httpBackend.whenPOST('/packages').respond(function(method, url, data) {
             var phone = angular.fromJson(data);
             phones.push(phone);
             return [200, phone, {}];
         });
+             */
         $httpBackend.whenGET(/templates/).passThrough();
         $httpBackend.whenGET(/API/).passThrough();
     })
@@ -68,25 +70,23 @@ loginModuleInstance.factory('UserService', ['$http', '$log', function($http, $lo
 
 
     var getSessionDetails = function () {
-        var promise = $http({
+        return $http({
             method: 'GET',
             url: '/sessiondetails.json'
-        }).success(function(data, status, headers, config) {
+        }).success(function(data) {
             // this callback will be called asynchronously
             // when the response is available
             return data;
-        }).error(function(data, status, headers, config) {
+        }).error(function() {
             // called asynchronously if an error occurs
             // or server returns response with an error status.
             $log.error( new Date() + 'Error retrieving user');
             return {"status": false};
         });
-
-        return promise;
     };
 
 
-    var user = {
+    return  {
         isLogged: false,
         username: '',
         getData: function() {
@@ -94,7 +94,6 @@ loginModuleInstance.factory('UserService', ['$http', '$log', function($http, $lo
 
         }
     };
-    return user;
 }]);
 
 loginModuleInstance.value('user', {
@@ -126,31 +125,24 @@ loginModuleInstance.controller('LoginController', ['$scope', '$http', 'user', fu
     };
 
     var getLogin = function () {
-        var promise = $http({
+        return $http({
             method: "GET",
             url: "/login/user.json?username=" + $scope.data.username + "&password=" + $scope.data.username
-        }).success(function(data, status, headers, config) {
+        }).success(function(data) {
             return data;
-        }).error(function(data, status, headers, config) {
+        }).error(function() {
             return {"status": false};
         });
-
-        return promise;
     };
 
 
 
 }]);
-
+/*
 loginModuleInstance.run(function($http, $log, user) {
 
     "use strict";
 
-
-
-
-
-    /*
      $http({method: 'GET', url: '/sessiondetails.json'})
      .success(function(data, status, headers, config) {
      // this callback will be called asynchronously
@@ -171,11 +163,12 @@ loginModuleInstance.run(function($http, $log, user) {
      $log.error( new Date() + 'Error retrieving user');
      user.isLogged = false;
      user.username = '';
-     });*/
+     });
 
 
 
 });
+ */
 
 /*
 var authModuleInstance = angular.module('authModule', ['ngCookies', 'loginModule']);

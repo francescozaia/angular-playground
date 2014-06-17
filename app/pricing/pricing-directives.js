@@ -13,5 +13,5 @@ angular.module('Pricing.directives', []).
             restrict: 'A',
             transclude: true,
             templateUrl: '/app/templates/package-tmpl.html'
-        }
+        };
     });
