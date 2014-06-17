@@ -11,7 +11,6 @@
         "angular-loader": "1.2.17",
         "angular-mocks": "1.2.17",
         "angular-resource": "1.2.17",
-        "angular-bootstrap": "0.11.0",
-        "modernizr": "2.8.2"
+        "angular-bootstrap": "0.11.0"
     }
 }
