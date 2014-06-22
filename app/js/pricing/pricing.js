@@ -27,5 +27,6 @@ angular.module('Pricing', [
         });
              */
         $httpBackend.whenGET(/templates/).passThrough();
+        $httpBackend.whenGET(/partials/).passThrough();
         $httpBackend.whenGET(/API/).passThrough();
     });
