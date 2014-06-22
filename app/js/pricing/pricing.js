@@ -2,7 +2,6 @@
 
 angular.module('Pricing', [
     'loginModule',
-    'ui.bootstrap',
     'ngMockE2E',
     'ngResource',
     'ui.bootstrap',
