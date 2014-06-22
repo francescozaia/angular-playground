@@ -58,3 +58,48 @@ body {
     background-color: #FFF;
     border-radius: 10px;
 }
+
+/* bootstrap */
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 24px;
+    padding: 3px 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #00b196;
+    border-color: #00b196;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #00A188; /*fix*/
+    border-color: #00A188; /*fix*/
+}
+.btn:active, .btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+.navbar-header {
+    min-height: 80px;
+}
+.navbar-default {
+    background-color: #f2f2f2;
+    border: 0 none;
+    box-shadow:0px 1px 8px #000;
+}
+.navbar-brand {
+    padding: 5px;
+    line-height: 77px;
+    height: 77px;
+}
+.navbar-nav>li {
+    padding: 17px 0;
+}
+.navbar-nav>li>a.btn {
+    color: #FFF;
+}

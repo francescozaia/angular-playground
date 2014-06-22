@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" href="css/app.css">
-        <link rel="stylesheet" type="text/css" href="css/pricing.css">
+        <link rel="stylesheet" type="text/css" href="css/templates.css">
         <script src="bower_components/modernizr/modernizr.js"></script>
     </head>
 
@@ -48,8 +48,11 @@
         <div class="site-wrapper">
             <div class="site-wrapper-dots">
                 <div class="container box" ng-controller="templatesController">
-                    <div class="main-pricing-boxes row">
-                        <div template class="col-md-4 font-regular" ng-repeat="template in templates"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">Templates Gallery</h1>
+                        </div>
+                        <div template class="col-lg-3 col-md-4 col-xs-6 thumb font-regular" ng-repeat="template in templates"></div>
                     </div>
                 </div>
             </div>
@@ -70,7 +73,5 @@
         <script src="js/templates/templates-controllers.js"></script>
         <script src="js/templates/templates-services.js"></script>
         <script src="js/templates/templates-directives.js"></script>
-
-
     </body>
 </html>
