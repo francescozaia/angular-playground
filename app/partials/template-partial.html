@@ -1,4 +1,4 @@
 <!-- Pricing column -->
-<div>
-    <img src="{{ template.thumbnail }}" alt="{{ template.name }}" title="{{ template.name }}" />
+<div infinite-scroll="loadMore()" infinite-scroll-distance="2">
+    <img ng-src="{{ template.image }}" class="img-responsive" alt="{{ template.name }}" title="{{ template.name }}" />
 </div>
