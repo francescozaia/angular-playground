@@ -4,7 +4,7 @@ angular.module('UserInterface.controllers', [])
     .controller('ModalController', ['$scope', '$modal', '$log', function($scope, $modal, $log) {
         $scope.open = function () {
             $modal.open({
-                templateUrl: '/app/templates/login-form-tmpl.html',
+                templateUrl: '/app/partials/login-form-partial.html', // TODO put in login-directives.js ?
                 controller: function ($scope, $modalInstance) {
                     $scope.cancel = function () {
                         $modalInstance.dismiss('cancel');

@@ -8,7 +8,7 @@ angular.module('Templates.services', []).
         templatesAPI.getPackages = function() {
             return $http({
                 method: 'GET',
-                url: '/websites'
+                url: '/API/templates.json'
             });
         };
         return templatesAPI;
