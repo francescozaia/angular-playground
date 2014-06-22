@@ -1,0 +1,968 @@
+{
+    "templates": [
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/executive-templatev6Preview182x137.jpg",
+            "name" : "Executive",
+            "id" : "executive-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "brochure",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/executive-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/highspec-templatev6Preview182x137.jpg",
+            "name" : "High spec",
+            "id" : "highspec-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "modern",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/highspec-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/dancedance-templatev6Preview182x137.jpg",
+            "name" : "Dance dance",
+            "id" : "dancedance-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "simple",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/dancedance-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/smithpr-templatev6Preview182x137.jpg",
+            "name" : "Smith PR",
+            "id" : "smithpr-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "brochure",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/smithpr-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/gamer-templatev6Preview182x137.jpg",
+            "name" : "Gamer",
+            "id" : "gamer-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/gamer-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/vacation-templatev6Preview182x137.jpg",
+            "name" : "Vacation",
+            "id" : "vacation-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "modern",
+                "brochure",
+                "photography",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/vacation-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/cocktails-templatev6Preview182x137.jpg",
+            "name" : "Cocktails",
+            "id" : "cocktails-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/cocktails-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/stuff-templatev6Preview182x137.jpg",
+            "name" : "Stuff",
+            "id" : "stuff-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/stuff-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/bigtype-templatev6Preview182x137.jpg",
+            "name" : "Big type",
+            "id" : "bigtype-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "portfolio",
+                "brochure",
+                "simple",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/bigtype-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/thecollective-templatev6Preview182x137.jpg",
+            "name" : "Collective",
+            "id" : "thecollective-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "business",
+                "shop",
+                "craft",
+                "feminine",
+                "simple",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/thecollective-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/urbanlife-templatev6Preview182x137.jpg",
+            "name" : "Urban life",
+            "id" : "urbanlife-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "portfolio",
+                "shop",
+                "modern",
+                "masculine",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/urbanlife-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/graphic-templatev6Preview182x137.jpg",
+            "name" : "Graphic",
+            "id" : "graphic-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "portfolio",
+                "simple",
+                "business",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/graphic-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/landscapes-templatev6Preview182x137.jpg",
+            "name" : "Landscapes",
+            "id" : "landscapes-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "portfolio",
+                "photography",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/landscapes-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/barista-templatev6Preview182x137.jpg",
+            "name" : "Barista",
+            "id" : "barista-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "business",
+                "modern",
+                "shop",
+                "feminine",
+                "natural",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/barista-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/expedition-templatev6Preview182x137.jpg",
+            "name" : "Expedition",
+            "id" : "expedition-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "business",
+                "modern",
+                "masculine",
+                "natural",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/expedition-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/minimalist-templatev6Preview182x137.jpg",
+            "name" : "Minimalist",
+            "id" : "minimalist-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "simple",
+                "portfolio",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/minimalist-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/mixmatch-templatev6Preview182x137.jpg",
+            "name" : "Mix & Match",
+            "id" : "mixmatch-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "business",
+                "shop",
+                "craft",
+                "feminine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/mixmatch-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/drift-templatev6Preview182x137.jpg",
+            "name" : "Drift",
+            "id" : "drift-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "masculine",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/drift-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/blank-templatev6Preview182x137.jpg",
+            "name" : "Blank",
+            "id" : "blank-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "simple",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/blank-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/blanknoir-templatev6Preview182x137.jpg",
+            "name" : "Blank Noir",
+            "id" : "blanknoir-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "simple",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/blanknoir-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/copywrite-templatev6Preview182x137.jpg",
+            "name" : "Copy Write",
+            "id" : "copywrite-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "portfolio",
+                "business",
+                "modern",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/copywrite-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/quiet-templatev6Preview182x137.jpg",
+            "name" : "Quiet",
+            "id" : "quiet-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "portfolio",
+                "photography",
+                "simple",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/quiet-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/dresssense-templatev6Preview182x137.jpg",
+            "name" : "Dress sense",
+            "id" : "dresssense-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "modern",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/dresssense-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/basic-templatev6Preview182x137.jpg",
+            "name" : "Basic",
+            "id" : "basic-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "simple",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/basic-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/tranquil-templatev6Preview182x137.jpg",
+            "name" : "Tranquil",
+            "id" : "tranquil-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "simple",
+                "quirky",
+                "feminine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/tranquil-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/novelist-templatev6Preview182x137.jpg",
+            "name" : "Novelist",
+            "id" : "novelist-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "portfolio",
+                "shop",
+                "craft",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/novelist-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/belissimo-templatev6Preview182x137.jpg",
+            "name" : "Belissimo",
+            "id" : "belissimo-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/belissimo-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/catalogue-templatev6Preview182x137.jpg",
+            "name" : "Catalogue",
+            "id" : "catalogue-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "portfolio",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/catalogue-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/outlandadventures-templatev6Preview182x137.jpg",
+            "name" : "Outland",
+            "id" : "outlandadventures-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "brochure",
+                "photography",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/outlandadventures-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/elexuraudio-templatev6Preview182x137.jpg",
+            "name" : "Elexur",
+            "id" : "elexuraudio-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/elexuraudio-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/folio-templatev6Preview182x137.jpg",
+            "name" : "Folio",
+            "id" : "folio-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "portfolio",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/folio-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/penandpaper-templatev6Preview182x137.jpg",
+            "name" : "Pen & Paper",
+            "id" : "penandpaper-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "modern",
+                "portfolio",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/penandpaper-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/traveljournal-templatev6Preview182x137.jpg",
+            "name" : "Travel",
+            "id" : "traveljournal-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "photography",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/traveljournal-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/lightbox-templatev6Preview182x137.jpg",
+            "name" : "Lightbox",
+            "id" : "lightbox-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "brochure",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/lightbox-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/stitched-templatev6Preview182x137.jpg",
+            "name" : "Stitched",
+            "id" : "stitched-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "craft",
+                "masculine",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/stitched-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/mochi-templatev6Preview182x137.jpg",
+            "name" : "Mochi",
+            "id" : "mochi-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "personal",
+                "business",
+                "shop",
+                "craft",
+                "simple",
+                "quirky",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/mochi-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/bookclub-templatev6Preview182x137.jpg",
+            "name" : "Book club",
+            "id" : "bookclub-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "simple",
+                "shop",
+                "craft",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/bookclub-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/simpleshop-templatev6Preview182x137.jpg",
+            "name" : "Simple shop",
+            "id" : "simpleshop-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "shop",
+                "simple",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/simpleshop-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/designate-templatev6Preview182x137.jpg",
+            "name" : "Designate",
+            "id" : "designate-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "shop",
+                "masculine",
+                "modern",
+                "business",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/designate-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/thenewunion-templatev6Preview182x137.jpg",
+            "name" : "T N U",
+            "id" : "thenewunion-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "portfolio",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/thenewunion-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/teashop-templatev6Preview182x137.jpg",
+            "name" : "Tea shop",
+            "id" : "teashop-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "modern",
+                "business",
+                "shop",
+                "feminine",
+                "natural",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/teashop-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/longbeach-templatev6Preview182x137.jpg",
+            "name" : "Long beach",
+            "id" : "longbeach-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "masculine",
+                "natural",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/longbeach-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/jbphoto-templatev6Preview182x137.jpg",
+            "name" : "JB photo",
+            "id" : "jbphoto-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "photography",
+                "portfolio",
+                "brochure",
+                "business",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/jbphoto-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/itservices-templatev6Preview182x137.jpg",
+            "name" : "IT services",
+            "id" : "itservices-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "brochure",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/itservices-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/decore-templatev6Preview182x137.jpg",
+            "name" : "Decore",
+            "id" : "decore-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "modern",
+                "business",
+                "shop",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/decore-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/identity-templatev6Preview182x137.jpg",
+            "name" : "Identity",
+            "id" : "identity-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "portfolio",
+                "business",
+                "brochure",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/identity-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/estore-templatev6Preview182x137.jpg",
+            "name" : "E-store",
+            "id" : "estore-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/estore-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/basicshop-templatev6Preview182x137.jpg",
+            "name" : "Basic shop",
+            "id" : "basicshop-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "simple",
+                "shop",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/basicshop-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/vintagefare-templatev6Preview182x137.jpg",
+            "name" : "Vintage fare",
+            "id" : "vintagefare-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/vintagefare-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/bakery-templatev6Preview182x137.jpg",
+            "name" : "Bakery",
+            "id" : "bakery-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "feminine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/bakery-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/wineshop-templatev6Preview182x137.jpg",
+            "name" : "Wine shop",
+            "id" : "wineshop-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/wineshop-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/paperpress-templatev6Preview182x137.jpg",
+            "name" : "Paper press",
+            "id" : "paperpress-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "simple",
+                "shop",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/paperpress-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/accounting-templatev6Preview182x137.jpg",
+            "name" : "Accounting",
+            "id" : "accounting-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "modern",
+                "brochure",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/accounting-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/biteme-templatev6Preview182x137.jpg",
+            "name" : "Bite me",
+            "id" : "biteme-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "shop",
+                "feminine",
+                "quirky",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/biteme-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/shutterspeed-templatev6Preview182x137.jpg",
+            "name" : "Shutterspeed",
+            "id" : "shutterspeed-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "photography",
+                "shop",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/shutterspeed-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/fotograf-templatev6Preview182x137.jpg",
+            "name" : "Fotograf",
+            "id" : "fotograf-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "photography",
+                "portfolio",
+                "feminine",
+                "brochure",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/fotograf-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/skyline-templatev6Preview182x137.jpg",
+            "name" : "Skyline",
+            "id" : "skyline-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/skyline-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/vinyl-templatev6Preview182x137.jpg",
+            "name" : "Vinyl",
+            "id" : "vinyl-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "modern",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/vinyl-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/typetastic-templatev6Preview182x137.jpg",
+            "name" : "Typetastic",
+            "id" : "typetastic-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "simple",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/typetastic-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/arkitekt-templatev6Preview182x137.jpg",
+            "name" : "Arkitekt",
+            "id" : "arkitekt-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "business",
+                "photography",
+                "simple",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/arkitekt-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/rocker-templatev6Preview182x137.jpg",
+            "name" : "Rocker",
+            "id" : "rocker-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "shop",
+                "masculine",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/rocker-templatev6Preview434x326.jpg"
+        },
+        {
+            "thumbnail" : "http://en.sitemakerlive.com/en/previews/interi-templatev6Preview182x137.jpg",
+            "name" : "Interi",
+            "id" : "interi-templatev6",
+            "tags" : [
+                "all",
+                "featured",
+                "shop",
+                "modern",
+                "moonfruit",
+                "html5"
+            ],
+            "image" : "http://en.sitemakerlive.com/en/previews/interi-templatev6Preview434x326.jpg"
+        }
+    ]
+}

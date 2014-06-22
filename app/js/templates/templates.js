@@ -1,8 +1,20 @@
 'use strict';
 
 angular.module('Templates', [
-    'loginModule',
+    'UserInterface',
+    'Login',
     'ngMockE2E',
     'ngResource',
-    'ui.bootstrap'
-]);
+    'Templates.controllers',
+    'Templates.services'
+])
+    .run(function($httpBackend, $resource) {
+        var packages = [];
+
+        // returns the current list of packages
+        $httpBackend.whenGET('/websites').respond(
+            $resource("/API/websites.json").get()
+        );
+        $httpBackend.whenGET(/templates/).passThrough();
+        $httpBackend.whenGET(/API/).passThrough();
+    });
