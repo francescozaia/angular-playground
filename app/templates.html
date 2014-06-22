@@ -48,7 +48,7 @@
         <div class="site-wrapper">
             <div class="site-wrapper-dots">
                 <div class="container box" ng-controller="templatesController">
-                    <div class="row">
+                    <div class="row" infinite-scroll="loadMore()" infinite-scroll-distance="2">
                         <div class="col-lg-12">
                             <h1 class="page-header">Templates Gallery</h1>
                         </div>
@@ -58,12 +58,12 @@
             </div>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="bower_components/angular/angular.js"></script>
+        <script src="//code.angularjs.org/1.2.18/angular.min.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
         <script src="bower_components/angular-mocks/angular-mocks.js"></script>
         <script src="bower_components/angular-resource/angular-resource.js"></script>
         <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-        <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll-no-jquery.js"></script>
+        <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
         <script src="js/ui/ui.js"></script>
         <script src="js/ui/ui-controllers.js"></script>
         <script src="js/login/login.js"></script>
