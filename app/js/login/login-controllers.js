@@ -1,3 +1,5 @@
+"use strict";
+
 angular.module('Login.controllers', [])
     .controller('LoginController', ['$scope', '$http', 'user', function($scope, $http, user) {
         $scope.login = function () {

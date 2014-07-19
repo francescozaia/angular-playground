@@ -5,7 +5,7 @@ angular.module('Templates.controllers', []).
         templatesAPIService.getPackages().success(function (response) {
             //var images = 12;
             $scope.templates = response.templates;//.slice(0, images);
-            $scope.loadMore = function() {
+            /*$scope.loadMore = function() {
                 var last = $scope.templates.length - 1;
                 for(var i = 1; i <= images; i++) {
                     if (response.templates[last + i]) {
@@ -13,7 +13,7 @@ angular.module('Templates.controllers', []).
                     }
 
                 }
-            };
+            };*/
             $scope.filteredTemplates = function () {
                 return $scope.templates.filter(function (template) {
                     return template.tags.indexOf($scope.gatto) !== -1;
@@ -23,8 +23,7 @@ angular.module('Templates.controllers', []).
                 var arrays = _.map($scope.templates, function(template) {
                     return template.tags;
                 });
-                var ret = _.union.apply(this, arrays);
-                return ret;
+                return _.union.apply(this, arrays);
             };
         });
     });
