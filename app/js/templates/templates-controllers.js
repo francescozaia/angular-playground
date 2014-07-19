@@ -14,5 +14,10 @@ angular.module('Templates.controllers', []).
 
                 }
             };
+            $scope.filteredTemplates = function () {
+                return $scope.templates.filter(function (template) {
+                    return template.tags.indexOf($scope.gatto) !== -1;
+                });
+            };
         });
     });
