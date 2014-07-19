@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -57,12 +57,16 @@
                         </div>
                         <!--{{ 12 | currency }}-->
                         <div template class="col-lg-3 col-md-4 col-xs-6 thumb font-regular" ng-repeat="template in templates | yoFilterTwo:gatto"></div>
+                        <ul ng-repeat="templateTag in templateTags()">
+                            <li>{{ templateTag }}</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="//code.angularjs.org/1.2.18/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
         <script src="bower_components/angular-mocks/angular-mocks.js"></script>
         <script src="bower_components/angular-resource/angular-resource.js"></script>

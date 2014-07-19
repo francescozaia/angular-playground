@@ -19,5 +19,12 @@ angular.module('Templates.controllers', []).
                     return template.tags.indexOf($scope.gatto) !== -1;
                 });
             };
+            $scope.templateTags = function () {
+                var arrays = _.map($scope.templates, function(template) {
+                    return template.tags;
+                });
+                var ret = _.union.apply(this, arrays);
+                return ret;
+            };
         });
     });
