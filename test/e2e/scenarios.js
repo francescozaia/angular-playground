@@ -16,7 +16,7 @@ function writeScreenShot(data, filename) {
 
 describe('my app', function() {
 
-    browser.get('index.html');
+    browser.get('test.html');
 
     it('should automatically redirect to /view1 when location hash/fragment is empty', function() {
         expect(browser.getLocationAbsUrl()).toMatch("/view1");
@@ -26,7 +26,7 @@ describe('my app', function() {
     describe('view1', function() {
 
         beforeEach(function() {
-            browser.get('index.html#/view1');
+            browser.get('test.html#/view1');
         });
 
 
@@ -41,7 +41,7 @@ describe('my app', function() {
     describe('view2', function() {
 
         beforeEach(function() {
-            browser.get('index.html#/view2');
+            browser.get('test.html#/view2');
         });
 
 
