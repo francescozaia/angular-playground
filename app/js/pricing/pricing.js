@@ -1,8 +1,8 @@
 'use strict';
 
-global["define"] = require('amdefine');
+/*global["define"] = require('amdefine');
 
-define(['angular'], function(angular) {
+define(['angular'], function(angular) {*/
     angular.module('Pricing', [
         'UserInterface',
         'Login',
@@ -33,4 +33,4 @@ define(['angular'], function(angular) {
             $httpBackend.whenGET(/partials/).passThrough();
             $httpBackend.whenGET(/API/).passThrough();
         });
-});
+/*});*/

@@ -13,9 +13,9 @@ script:
   - node_modules/.bin/karma start test/karma.conf.js --no-auto-watch --single-run --reporters=dots --browsers=Firefox
   - node_modules/.bin/protractor test/protractor-conf.js --browser=firefox
 
-addons:
-  code_climate:
-    repo_token: 4cf179989dd93814f9351f8d87e25d6a9eacb8f4b28f05b3f78183ea4252702e
+#addons:
+#  code_climate:
+#    repo_token: 4cf179989dd93814f9351f8d87e25d6a9eacb8f4b28f05b3f78183ea4252702e
 
-after_script:
-  - cat lcov.info | codeclimate
+#after_script:
+#  - cat lcov.info | codeclimate
