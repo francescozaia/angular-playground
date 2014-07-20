@@ -16,19 +16,19 @@ function writeScreenShot(data, filename) {
 
 describe('my app', function() {
 
-    browser.get('test.html');
+    beforeEach(function() {
+        browser.get('test.html');
+    });
 
     it('should automatically redirect to /view1 when location hash/fragment is empty', function() {
         expect(browser.getLocationAbsUrl()).toMatch("/view1");
     });
-
 
     describe('view1', function() {
 
         beforeEach(function() {
             browser.get('test.html#/view1');
         });
-
 
         it('should render view1 when user navigates to /view1', function() {
             expect(element.all(by.css('[ng-view] p')).first().getText()).
@@ -44,8 +44,8 @@ describe('my app', function() {
             browser.get('test.html#/view2');
         });
 
-
         it('should render view2 when user navigates to /view2', function() {
+
             expect(element.all(by.css('[ng-view] p')).first().getText()).
                 toMatch(/partial for view 2/);
         });
@@ -68,4 +68,22 @@ describe('my app', function() {
 
     });
     */
+});
+
+
+describe('Templates', function() {
+
+    var protractor;
+
+    beforeEach(function() {
+        protractor = protractor.getInstance();
+        browser.get('templates.html');
+    });
+
+    it('should render at least one template', function () {
+        browser.waitForAngular();
+        expect(element.all(by.css('.thumbnail')).count())
+            .toBeGreaterThan(0);
+    });
+
 });
