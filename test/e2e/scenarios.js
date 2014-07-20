@@ -73,10 +73,10 @@ describe('my app', function() {
 
 describe('Templates', function() {
 
-    var protractor;
+    var ptor;
 
     beforeEach(function() {
-        protractor = protractor.getInstance();
+        ptor = protractor.getInstance();
         browser.get('templates.html');
     });
 
