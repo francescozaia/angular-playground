@@ -52,14 +52,18 @@
                     <div class="row">
                         <label for="filter-tags">Yo:</label>
                         <input id="filter-tags" ng-model="gatto">
+                        <input id="filter-tags-two" ng-model="gattoTwo">
+                        <select ng-model="gatto">
+                            <option ng-repeat="templateTag in templateTags() | filter:gattoTwo">{{ templateTag }}</option>
+                        </select>
                         <div class="col-lg-12">
                             <h1 class="page-header">Templates Gallery</h1>
                         </div>
                         <!--{{ 12 | currency }}-->
-                        <div template class="col-lg-3 col-md-4 col-xs-6 thumb font-regular" ng-repeat="template in templates | yoFilterTwo:gatto"></div>
-                        <ul ng-repeat="templateTag in templateTags()">
-                            <li>{{ templateTag }}</li>
-                        </ul>
+                        <div template
+                             class="col-lg-3 col-md-4 col-xs-6 thumb font-regular"
+                             ng-repeat="template in templates | filterByTag:gatto"
+                             class="repeated-item"></div>
                     </div>
                 </div>
             </div>
@@ -69,6 +73,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
         <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
         <script src="bower_components/angular-resource/angular-resource.js"></script>
         <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
         <!--<script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>-->
