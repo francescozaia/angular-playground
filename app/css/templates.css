@@ -3,7 +3,9 @@
         width: 1460px;
     }
 }
-
+.template-centered {
+    margin: 0 auto;
+}
 .caption {
     position: absolute;
     width: 100%;
