@@ -2,14 +2,23 @@
 
 /* Services */
 
-angular.module('Templates.services', []).
-    factory('templatesAPIService', function($http) {
-        var templatesAPI = {};
-        templatesAPI.getPackages = function() {
-            return $http({
-                method: 'GET',
-                url: '/API/templates.json'
-            });
-        };
-        return templatesAPI;
-    });
+angular.module('Templates.services', [])
+    .factory('templatesService', [
+        '$q', '$http',
+        function($q, $http) {
+            var getTemplates = function() {
+                var deferred = $q.defer();
+                $http.get('/API/templates.json')
+                    .success(function(data) {
+                        deferred.resolve(data);
+                    })
+                    .error(function(reason) {
+                        deferred.reject(reason);
+                    })
+                return deferred.promise;
+            }
+
+            return {
+                getTemplates: getTemplates
+            };
+        }]);
