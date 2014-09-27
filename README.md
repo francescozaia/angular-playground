@@ -3,4 +3,6 @@
 
 ### based on angular-seed
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
+This project is an application skeleton for my small [AngularJS](http://angularjs.org/) experiments.
+
+Loving Travis CI.
